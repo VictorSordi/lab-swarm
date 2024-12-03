@@ -9,3 +9,5 @@ docker node ls
 docker service create --name demo --publish 80:80 nginx
 
 docker service scale demo=3
+
+docker system prune
